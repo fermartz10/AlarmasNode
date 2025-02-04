@@ -1,0 +1,20 @@
+.toast-error {
+    background-color: #DC3545 !important; /* Rojo para máximo, mínimo y valor repetido */
+}
+
+.toast-warning {
+    background-color: #f38d2d !important; /* Naranja para prealarma superior e inferior */
+}
+
+.toast-info {
+    background-color: #fcec16 !important; /* Amarillo para normal superior e inferior */
+}
+
+.toast-message {
+    color: #FFFFFF !important; /* Texto blanco para mejor contraste */
+}
+
+/* Para asegurar la legibilidad en el toast amarillo */
+.toast-info .toast-message {
+    color: #000000 !important; /* Texto negro para el fondo amarillo */
+}
